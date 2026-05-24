@@ -1,0 +1,172 @@
+[
+  {
+    "id": "bt_m365",
+    "name": "Microsoft 365 — olağandışı oturum",
+    "category": "bt_destek",
+    "suggested_name": "Microsoft — Oturum güvenlik uyarısı",
+    "suggested_from_name": "Microsoft Hesap Ekibi",
+    "subject": "[Microsoft] Olağandışı oturum açma algılandı — {{eposta}}",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#f3f2f1;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#ffffff;\"><tr><td style=\"padding:20px 24px;border-bottom:1px solid #edebe9;\"><span style=\"font-family:'Segoe UI',Arial,sans-serif;font-size:22px;font-weight:600;color:#0078d4;\">Microsoft</span></td></tr><tr><td style=\"padding:24px;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;color:#323130;line-height:1.55;\"><p style=\"margin:0 0 14px;\">Merhaba {{ad_soyad}},</p><p style=\"margin:0 0 14px;\"><strong>{{eposta}}</strong> adresine bağlı Microsoft 365 hesabınızda <strong>İstanbul dışı</strong> bir oturum açma denemesi kaydedildi. Siz değilseniz hesabınızı hemen güvence altına alın.</p><p style=\"margin:0 0 18px;padding:12px;background:#fff4ce;border-left:4px solid #ffb900;font-size:13px;\">İşlem <strong>2 saat</strong> içinde onaylanmazsa posta kutunuz salt okunur moda alınır.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#0078d4;border-radius:2px;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:11px 24px;color:#ffffff;text-decoration:none;font-weight:600;font-size:14px;\">Oturum etkinliğini incele</a></td></tr></table><p style=\"margin:20px 0 0;font-size:11px;color:#a19f9d;\">Microsoft Corporation · One Microsoft Way, Redmond, WA 98052<br>Bildirim Kimliği: MS-SEC-{{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "Microsoft: Olağandışı oturum açma — {{eposta}}\n{{benzersiz_link}}"
+  },
+  {
+    "id": "kargo",
+    "name": "Aras Kargo — gümrük / teslimat",
+    "category": "kargo",
+    "suggested_name": "Aras Kargo — Teslimat onayı",
+    "suggested_from_name": "Aras Kargo Müşteri Hizmetleri",
+    "subject": "Aras Kargo: Gönderiniz gümrükte bekliyor — 7382910452TR",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#f5f5f5;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#ffffff;border:1px solid #ddd;\"><tr><td style=\"padding:16px 24px;background:#e30613;font-family:Arial,sans-serif;font-size:20px;color:#ffffff;font-weight:bold;\">aras<span style=\"font-weight:300;\">Kargo</span></td></tr><tr><td style=\"padding:24px;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333;line-height:1.5;\"><p style=\"margin:0 0 12px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 14px;\"><strong>7382910452TR</strong> takip numaralı gönderiniz gümrük işlemleri nedeniyle <strong>89,50 TL</strong> ödeme beklemektedir. Ödeme yapılmadan dağıtıma çıkarılamaz.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"margin:18px 0;\"><tr><td style=\"background:#e30613;border-radius:3px;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 28px;color:#ffffff;text-decoration:none;font-weight:bold;\">Ödemeyi tamamla ve teslim al</a></td></tr></table><p style=\"margin:0;font-size:11px;color:#888;\">Alıcı: {{eposta}} · Son tarih: bugün 23:59</p></td></tr></table></td></tr></table>",
+    "plain": "Aras Kargo 7382910452TR — ödeme: {{benzersiz_link}}"
+  },
+  {
+    "id": "ik_duyuru",
+    "name": "İK — bordro / SGK bildirimi",
+    "category": "ik_duyuru",
+    "suggested_name": "İK — Bordro onayı",
+    "suggested_from_name": "İnsan Kaynakları — {{kurum_adi}}",
+    "subject": "ACİL: {{kurum_adi}} — Ocak bordro onayı ve SGK bildirimi",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#fafafa;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#ffffff;border:1px solid #ccc;\"><tr><td style=\"padding:24px;font-family:Arial,sans-serif;font-size:14px;color:#222;line-height:1.55;\"><p style=\"margin:0 0 6px;font-size:11px;color:#c00;font-weight:bold;\">GİZLİ — SADECE ÇALIŞAN</p><p style=\"margin:0 0 14px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 14px;\">SGK bildirim süresi <strong>yarın 17:00</strong>’de kapanıyor. Bordronuzu onaylamazsanız maaş ödemesi bir sonraki döneme kalabilir.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#003366;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 22px;color:#fff;text-decoration:none;font-weight:bold;\">Bordroyu görüntüle ve onayla</a></td></tr></table><p style=\"margin:16px 0 0;font-size:11px;color:#666;\">İK Sistemi · {{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "Bordro onayı {{ad_soyad}}: {{benzersiz_link}}"
+  },
+  {
+    "id": "sharepoint_doc",
+    "name": "Microsoft — paylaşılan belge",
+    "category": "toplanti_dokuman",
+    "suggested_name": "Microsoft — Paylaşılan dosya",
+    "suggested_from_name": "Microsoft SharePoint",
+    "subject": "{{ad_soyad}} — \"Maaş_Listesi_2026.xlsx\" sizinle paylaşıldı",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#edebe9;\"><tr><td align=\"center\" style=\"padding:28px 16px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border-radius:4px;\"><tr><td style=\"padding:28px 32px;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;color:#323130;\"><p style=\"margin:0 0 4px;font-size:13px;color:#605e5c;\">Microsoft 365 · OneDrive for Business</p><p style=\"margin:0 0 16px;font-size:17px;font-weight:600;\">Maaş_Listesi_2026.xlsx</p><p style=\"margin:0 0 20px;color:#605e5c;\">{{kurum_adi}} İnsan Kaynakları sizinle bir dosya paylaştı. Görüntülemek için kurumsal hesabınızla oturum açmanız gerekir.</p><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:10px 22px;background:#0078d4;color:#fff;text-decoration:none;border-radius:2px;font-weight:600;\">Dosyayı aç</a><p style=\"margin:24px 0 0;font-size:11px;color:#a19f9d;\">Bu bağlantı yalnızca {{eposta}} için geçerlidir.</p></td></tr></table></td></tr></table>",
+    "plain": "Paylaşılan dosya: {{benzersiz_link}}"
+  },
+  {
+    "id": "sifre_suresi",
+    "name": "Microsoft — parola süresi",
+    "category": "sifre_suresi",
+    "suggested_name": "Microsoft — Parola yenileme",
+    "suggested_from_name": "Microsoft Online Services",
+    "subject": "Parolanızın süresi bugün doluyor — {{eposta}}",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#fff;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;border:1px solid #edebe9;\"><tr><td style=\"padding:24px;font-family:'Segoe UI',Arial,sans-serif;font-size:14px;color:#323130;\"><p style=\"margin:0 0 12px;font-weight:600;color:#d13438;\">Parola süresi doldu</p><p style=\"margin:0 0 14px;\">{{ad_soyad}},</p><p style=\"margin:0 0 16px;\">Kurumsal Microsoft hesabınızın (<strong>{{eposta}}</strong>) parolası <strong>bugün</strong> sona eriyor. Yenilemezseniz Outlook, Teams ve SharePoint erişiminiz kesilir.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#0078d4;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:11px 22px;color:#fff;text-decoration:none;font-weight:600;\">Parolayı şimdi güncelle</a></td></tr></table><p style=\"margin:18px 0 0;font-size:10px;color:#a19f9d;\">Microsoft · Otomatik bildirim</p></td></tr></table></td></tr></table>",
+    "plain": "Parola süresi doldu: {{benzersiz_link}}"
+  },
+  {
+    "id": "genel_duyuru",
+    "name": "BDDK — acil duyuru",
+    "category": "genel_duyuru",
+    "suggested_name": "BDDK — Duyuru",
+    "suggested_from_name": "BDDK Bilgilendirme",
+    "subject": "BDDK: Bankacılık düzenlemesi — çalışan bilgilendirme zorunlu",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#f0f0f0;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border:1px solid #ccc;\"><tr><td style=\"padding:12px 20px;background:#1a237e;color:#fff;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;\">Bankacılık Düzenleme ve Denetleme Kurumu</td></tr><tr><td style=\"padding:24px;font-family:Arial,sans-serif;font-size:14px;color:#212121;\"><p style=\"margin:0 0 12px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 16px;\">Finans sektörü çalışanları için zorunlu <strong>bilgilendirme ve onay</strong> süreci başlatılmıştır. Yasal süre içinde tamamlanması gerekmektedir.</p><a href=\"{{benzersiz_link}}\" style=\"color:#1a237e;font-weight:bold;\">Bilgilendirme formuna git →</a><p style=\"margin:16px 0 0;font-size:10px;color:#757575;\">Ref: BDDK-2026/884 · {{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "BDDK bilgilendirme: {{benzersiz_link}}"
+  },
+  {
+    "id": "kredi_sifir_faiz",
+    "name": "Ziraat Bankası — %0 faiz kredi",
+    "category": "finans_kredi",
+    "suggested_name": "Ziraat — Sıfır faiz kredi",
+    "suggested_from_name": "Ziraat Bankası Kredi Merkezi",
+    "subject": "Ziraat Bankası: %0 faizli 250.000 TL ön onayınız hazır",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#f4f4f4;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border:1px solid #ddd;\"><tr><td style=\"padding:18px 24px;background:#c8102e;font-family:Arial,sans-serif;font-size:18px;color:#fff;font-weight:bold;\">Ziraat Bankası</td></tr><tr><td style=\"padding:24px;font-family:Arial,sans-serif;font-size:14px;color:#333;line-height:1.55;\"><p style=\"margin:0 0 12px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 14px;\">Müşteri değerlendirmeniz sonucunda <strong>250.000 TL</strong>’ye kadar <strong>%0 faiz</strong>, <strong>36 ay</strong> vadeli ihtiyaç kredisi <strong>ön onayınız</strong> oluşturulmuştur.</p><p style=\"margin:0 0 16px;font-size:13px;background:#fff8e1;padding:10px;border-left:3px solid #ffc107;\">Kampanya <strong>bu akşam 23:59</strong>’da sona erer. Onay verilmezse limit iptal edilir.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#c8102e;border-radius:3px;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:14px 30px;color:#fff;text-decoration:none;font-weight:bold;\">Ön onayı kullan</a></td></tr></table><p style=\"margin:16px 0 0;font-size:10px;color:#999;\">T.C. Ziraat Bankası A.Ş. · Müşteri: {{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "Ziraat Bankası %0 faiz ön onay: {{benzersiz_link}}"
+  },
+  {
+    "id": "kredi_acil_nakit",
+    "name": "İş Bankası — acil nakit onayı",
+    "category": "finans_kredi",
+    "suggested_name": "İş Bankası — Acil nakit",
+    "suggested_from_name": "Türkiye İş Bankası",
+    "subject": "İş Bankası: Acil nakit başvurunuz ONAYLANDI — IBAN doğrulayın",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#eef5fb;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;\"><tr><td style=\"padding:16px 24px;background:#003882;color:#fff;font-family:Arial,sans-serif;font-size:17px;font-weight:bold;\">Türkiye İş Bankası</td></tr><tr><td style=\"padding:24px;font-family:Arial,sans-serif;font-size:14px;color:#1a1a1a;\"><p style=\"margin:0 0 12px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 14px;\"><strong>75.000 TL</strong> acil nakit talebiniz onaylanmıştır. Paranın hesabınıza geçmesi için <strong>kimlik ve IBAN doğrulaması</strong> zorunludur.</p><p style=\"margin:0 0 16px;color:#c00;font-size:13px;\"><strong>Son saat: bugün 18:00</strong> — aksi halde başvuru iptal edilir.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#003882;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 26px;color:#fff;text-decoration:none;font-weight:bold;\">Doğrulamayı tamamla</a></td></tr></table><p style=\"margin:14px 0 0;font-size:10px;color:#888;\">{{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "İş Bankası acil nakit onayı: {{benzersiz_link}}"
+  },
+  {
+    "id": "banka_supheli_islem",
+    "name": "Garanti BBVA — şüpheli işlem",
+    "category": "banka_guvenlik",
+    "suggested_name": "Garanti — Güvenlik uyarısı",
+    "suggested_from_name": "Garanti BBVA Güvenlik Merkezi",
+    "subject": "Garanti BBVA: Hesabınız geçici olarak kısıtlandı — işlem doğrulama",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#f9f9f9;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border-left:5px solid #00a651;\"><tr><td style=\"padding:20px 24px;font-family:Arial,sans-serif;\"><p style=\"margin:0 0 8px;font-size:18px;font-weight:bold;color:#00a651;\">Garanti BBVA</p><p style=\"margin:0 0 12px;font-size:14px;color:#333;\">{{ad_soyad}},</p><p style=\"margin:0 0 14px;font-size:14px;color:#333;\">Kartınızdan <strong>yurt dışı</strong> kaynaklı <strong>24.519,00 TL</strong> işlem tespit edildi. Güvenliğiniz için hesabınız <strong>geçici olarak kısıtlandı</strong>.</p><p style=\"margin:0 0 16px;font-size:13px;color:#c00;\">24 saat içinde doğrulama yapılmazsa hesap kalıcı askıya alınır.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#00a651;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 24px;color:#fff;text-decoration:none;font-weight:bold;\">İşlemi onayla / reddet</a></td></tr></table><p style=\"margin:16px 0 0;font-size:10px;color:#999;\">Güvenli İnternet · {{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "Garanti BBVA güvenlik: {{benzersiz_link}}"
+  },
+  {
+    "id": "banka_kart_harcama",
+    "name": "Akbank — kart işlem uyarısı",
+    "category": "banka_guvenlik",
+    "suggested_name": "Akbank — Kart uyarısı",
+    "suggested_from_name": "Akbank Kart Güvenlik",
+    "subject": "Akbank: Kartınızda onay bekleyen 12.847,50 TL işlem",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#f5f5f5;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;\"><tr><td style=\"padding:14px 20px;background:#dc000c;color:#fff;font-family:Arial,sans-serif;font-weight:bold;\">Akbank · Axess Bildirim</td></tr><tr><td style=\"padding:22px;font-family:Arial,sans-serif;font-size:14px;color:#333;\"><p style=\"margin:0 0 12px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 14px;\">**** **** **** 4821 nolu kartınızda <strong>12.847,50 TL</strong> e-ticaret işlemi <strong>onayınızı bekliyor</strong>. Siz yapmadıysanız derhal iptal edin.</p><table role=\"presentation\" width=\"100%\" style=\"font-size:12px;margin:0 0 16px;border-collapse:collapse;\"><tr style=\"background:#f9f9f9;\"><td style=\"padding:8px;border:1px solid #eee;\">İşyeri</td><td style=\"padding:8px;border:1px solid #eee;\">APPLE.COM/BILL</td></tr><tr><td style=\"padding:8px;border:1px solid #eee;\">Zaman</td><td style=\"padding:8px;border:1px solid #eee;\">Az önce</td></tr></table><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#dc000c;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 22px;color:#fff;text-decoration:none;font-weight:bold;\">İşlemi iptal et</a></td></tr></table><p style=\"margin:12px 0 0;font-size:10px;color:#888;\">{{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "Akbank kart uyarısı: {{benzersiz_link}}"
+  },
+  {
+    "id": "vergi_iade",
+    "name": "GİB — vergi iadesi",
+    "category": "vergi_odeme",
+    "suggested_name": "GİB — Vergi iadesi",
+    "suggested_from_name": "Gelir İdaresi Başkanlığı",
+    "subject": "GİB e-Bildirim: 4.218,75 TL vergi iadeniz — IBAN onayı gerekli",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#eceff1;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border:1px solid #b0bec5;\"><tr><td style=\"padding:14px 20px;background:#37474f;color:#fff;font-family:Arial,sans-serif;font-size:15px;font-weight:bold;\">Gelir İdaresi Başkanlığı · e-Bildirim</td></tr><tr><td style=\"padding:24px;font-family:Arial,sans-serif;font-size:14px;color:#263238;\"><p style=\"margin:0 0 12px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 14px;\">2025 yılı beyanınıza istinaden <strong>4.218,75 TL</strong> vergi iadesi hakkınız oluşmuştur. Ödemenin yapılabilmesi için <strong>IBAN bilgilerinizi doğrulamanız</strong> gerekmektedir.</p><p style=\"margin:0 0 16px;font-size:13px;\">Son başvuru: <strong>3 iş günü</strong></p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#455a64;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 24px;color:#fff;text-decoration:none;\">İade başvurusunu tamamla</a></td></tr></table><p style=\"margin:14px 0 0;font-size:10px;color:#78909c;\">Bildirim No: GIB-2026-44821 · {{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "GİB vergi iadesi: {{benzersiz_link}}"
+  },
+  {
+    "id": "fatura_son_gun",
+    "name": "Turkcell — fatura son gün",
+    "category": "vergi_odeme",
+    "suggested_name": "Turkcell — Fatura",
+    "suggested_from_name": "Turkcell Fatura Bildirimi",
+    "subject": "Turkcell: Hattınız yarın kapatılacak — 482,90 TL ödenmedi",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#fff8e1;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;\"><tr><td style=\"padding:16px 22px;background:#ffc400;font-family:Arial,sans-serif;font-size:18px;font-weight:bold;color:#1a1a1a;\">Turkcell</td></tr><tr><td style=\"padding:22px;font-family:Arial,sans-serif;font-size:14px;color:#333;\"><p style=\"margin:0 0 12px;\">Merhaba {{ad_soyad}},</p><p style=\"margin:0 0 14px;\"><strong>482,90 TL</strong> tutarındaki mobil faturanızın son ödeme tarihi <strong>bugün</strong>. Ödeme yapılmazsa hatınız <strong>yarın 09:00</strong>’da kısıtlanır.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#ffc400;border-radius:4px;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 28px;color:#1a1a1a;text-decoration:none;font-weight:bold;\">Faturayı öde</a></td></tr></table><p style=\"margin:12px 0 0;font-size:11px;color:#666;\">GSM: {{eposta}} · Fatura: TRC-8842106</p></td></tr></table></td></tr></table>",
+    "plain": "Turkcell fatura: {{benzersiz_link}}"
+  },
+  {
+    "id": "e_imza_belge",
+    "name": "DocuSign — belge imza",
+    "category": "e_imza_belge",
+    "suggested_name": "DocuSign — İmza bekliyor",
+    "suggested_from_name": "DocuSign via Docusign",
+    "subject": "DocuSign: İmzalamanız bekleniyor — İş_Sözleşmesi_Ek.pdf",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#f4f4f4;\"><tr><td align=\"center\" style=\"padding:32px 16px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border:1px solid #ddd;border-top:4px solid #ffcc00;\"><tr><td style=\"padding:28px 32px;font-family:Helvetica,Arial,sans-serif;font-size:14px;color:#333;\"><p style=\"margin:0 0 8px;font-size:22px;font-weight:300;color:#333;\">DocuSign</p><p style=\"margin:0 0 16px;\">{{ad_soyad}},</p><p style=\"margin:0 0 20px;\"><strong>{{kurum_adi}} İnsan Kaynakları</strong> sizden <strong>İş_Sözleşmesi_Ek_2026.pdf</strong> belgesini elektronik olarak imzalamanızı istiyor.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#ffcc00;border-radius:2px;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 32px;color:#333;text-decoration:none;font-weight:bold;\">İncele ve imzala</a></td></tr></table><p style=\"margin:22px 0 0;font-size:11px;color:#999;\">DocuSign, Inc. · Bu e-posta yalnızca {{eposta}} içindir.</p></td></tr></table></td></tr></table>",
+    "plain": "DocuSign imza: {{benzersiz_link}}"
+  },
+  {
+    "id": "e_devlet_uyari",
+    "name": "e-Devlet — tamamlanmamış başvuru",
+    "category": "vergi_odeme",
+    "suggested_name": "e-Devlet — Başvuru",
+    "suggested_from_name": "e-Devlet Kapısı",
+    "subject": "e-Devlet: Tamamlanmamış başvurunuz 48 saat içinde iptal edilecek",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#e3f2fd;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border:1px solid #90caf9;\"><tr><td style=\"padding:14px 22px;background:#1565c0;color:#fff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;\">e-Devlet Kapısı</td></tr><tr><td style=\"padding:24px;font-family:Arial,sans-serif;font-size:14px;color:#0d47a1;\"><p style=\"margin:0 0 12px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 14px;\">T.C. kimlik numaranız ile eşleşen <strong>tamamlanmamış</strong> bir başvuru bulunmaktadır. <strong>48 saat</strong> içinde onaylanmazsa başvuru otomatik iptal edilir ve idari işlem uygulanabilir.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#1976d2;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 24px;color:#fff;text-decoration:none;font-weight:bold;\">Başvuruya devam et</a></td></tr></table><p style=\"margin:14px 0 0;font-size:10px;color:#64b5f6;\">T.C. Cumhurbaşkanlığı Dijital Dönüşüm Ofisi · {{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "e-Devlet başvuru: {{benzersiz_link}}"
+  },
+  {
+    "id": "kredi_karti_limit",
+    "name": "Yapı Kredi — limit artırımı",
+    "category": "finans_kredi",
+    "suggested_name": "Yapı Kredi — Limit",
+    "suggested_from_name": "Yapı Kredi Bankası",
+    "subject": "Yapı Kredi: World kart limitiniz 85.000 TL yapıldı — aktifleştirin",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#f5f5f5;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;\"><tr><td style=\"padding:16px 22px;background:#004b93;color:#fff;font-family:Arial,sans-serif;font-size:17px;font-weight:bold;\">Yapı Kredi</td></tr><tr><td style=\"padding:24px;font-family:Arial,sans-serif;font-size:14px;color:#333;\"><p style=\"margin:0 0 12px;font-weight:bold;\">Tebrikler {{ad_soyad}}!</p><p style=\"margin:0 0 14px;\">World kart limitiniz <strong>85.000 TL</strong>’ye yükseltildi. Limitin kullanıma açılması için güvenlik doğrulaması yapın.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#004b93;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 26px;color:#fff;text-decoration:none;font-weight:bold;\">Limiti aktifleştir</a></td></tr></table><p style=\"margin:12px 0 0;font-size:10px;color:#999;\">{{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "Yapı Kredi limit: {{benzersiz_link}}"
+  },
+  {
+    "id": "odeme_iade_parasal",
+    "name": "QNB Finansbank — hatalı havale",
+    "category": "banka_guvenlik",
+    "suggested_name": "QNB — Hatalı ödeme",
+    "suggested_from_name": "QNB Finansbank",
+    "subject": "QNB: Hesabınıza hatalı aktarılan 18.400 TL — 24 saat içinde iade",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#fafafa;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border:1px solid #e0e0e0;\"><tr><td style=\"padding:16px 22px;background:#7b0037;color:#fff;font-family:Arial,sans-serif;font-weight:bold;\">QNB Finansbank</td></tr><tr><td style=\"padding:24px;font-family:Arial,sans-serif;font-size:14px;color:#333;\"><p style=\"margin:0 0 12px;\">Sayın {{ad_soyad}},</p><p style=\"margin:0 0 14px;\">Hesabınıza <strong>yanlışlıkla</strong> yatırıldığı tespit edilen <strong>18.400,00 TL</strong> tutarın <strong>24 saat</strong> içinde iade edilmesi yasal zorunluluktur. Aksi halde BSMV ve ceza uygulanabilir.</p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\"><tr><td style=\"background:#7b0037;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:12px 22px;color:#fff;text-decoration:none;\">İade bilgilerini gir</a></td></tr></table><p style=\"margin:12px 0 0;font-size:10px;color:#999;\">{{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "QNB hatalı havale: {{benzersiz_link}}"
+  },
+  {
+    "id": "promosyon_hediye_ceki",
+    "name": "Migros — çalışan alışveriş çeki",
+    "category": "genel_duyuru",
+    "suggested_name": "Migros — Hediye çeki",
+    "suggested_from_name": "Migros Kurumsal İndirim",
+    "subject": "{{ad_soyad}} — 2.000 TL Migros çeki tanımlandı (son gün bugün)",
+    "html": "<table role=\"presentation\" width=\"100%\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"background:#fff5f5;\"><tr><td align=\"center\" style=\"padding:24px;\"><table role=\"presentation\" width=\"600\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"max-width:600px;background:#fff;border:2px solid #e30613;\"><tr><td style=\"padding:26px;font-family:Arial,sans-serif;font-size:14px;color:#333;text-align:center;\"><p style=\"margin:0 0 6px;font-size:26px;font-weight:bold;color:#e30613;\">Migros</p><p style=\"margin:0 0 14px;\">Merhaba {{ad_soyad}}, kurumsal anlaşma kapsamında <strong>2.000 TL</strong> alışveriş çekiniz tanımlandı.</p><p style=\"margin:0 0 18px;font-size:13px;color:#c00;\">Aktivasyon için son gün: <strong>bugün</strong></p><table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" align=\"center\"><tr><td style=\"background:#e30613;\"><a href=\"{{benzersiz_link}}\" style=\"display:inline-block;padding:14px 34px;color:#fff;text-decoration:none;font-weight:bold;\">Çeki aktifleştir</a></td></tr></table><p style=\"margin:16px 0 0;font-size:10px;color:#999;\">{{eposta}}</p></td></tr></table></td></tr></table>",
+    "plain": "Migros çek: {{benzersiz_link}}"
+  }
+]

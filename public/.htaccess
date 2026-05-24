@@ -1,0 +1,9 @@
+# Sakallı - Apache rewrite (WAMP)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /sakalli/public/
+    # Eğer alt dizinde çalışıyorsanız RewriteBase /sakalli/public/ yapın
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

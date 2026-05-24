@@ -1,0 +1,31 @@
+# Ortam ve gizliler
+.env
+.env.local
+.env.*.local
+
+# Uygulama üretimi / önbellek
+storage/secrets/*
+!storage/secrets/.gitignore
+storage/logs/*
+!storage/logs/.gitkeep
+storage/cache/**/*
+!storage/cache/**/.gitkeep
+storage/exports/*
+!storage/exports/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Bağımlılık (ileride Composer eklenirse)
+/vendor/
+
+# Geçici
+*.log
+*.tmp
+
+# Yerel git hook klasoru (repoda paylasilmaz)
+.githooks/

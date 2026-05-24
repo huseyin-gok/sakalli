@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Şablon iskeleti</title>
+</head>
+<body style="margin:0;padding:0;background:#f4f4f4;">
+<!-- Outlook uyumu: tablo tabanlı düzen, inline CSS; genişlik 600px -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f4f4f4;">
+    <tr>
+        <td align="center" style="padding:24px;">
+            <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="max-width:600px;background:#ffffff;border:1px solid #e0e0e0;">
+                <tr>
+                    <td style="padding:24px;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333;">
+                        <p>Merhaba {{ad_soyad}},</p>
+                        <p>Bu bir örnek simülasyon gövdesidir. CTA için:</p>
+                        <p style="text-align:center;margin:24px 0;">
+                            <a href="{{benzersiz_link}}" style="background:#0d6efd;color:#fff;padding:12px 20px;text-decoration:none;border-radius:4px;display:inline-block;">Devam et</a>
+                        </p>
+                        <p style="font-size:12px;color:#666;">Kampanya: {{kampanya_adi}} — {{kurum_adi}}</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<img src="{{acilis_pikseli_url}}" width="1" height="1" alt="" style="display:none;" />
+</body>
+</html>

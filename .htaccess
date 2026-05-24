@@ -1,0 +1,3 @@
+# Sakallı proje kökü — dizin listesini kapat, önce index.php çalışsın
+Options -Indexes
+DirectoryIndex index.php
