@@ -1,6 +1,13 @@
-# Sakallı
+<div align="center">
+  <img src="public/images/sakalli-logo.png" alt="Sakallı" width="420">
+  <h1>Sakallı</h1>
+  <p><strong>Kurumsal güvenlik farkındalığı ve oltalama (phishing) simülasyonu paneli</strong></p>
+  <p>PHP 8.3 · MySQL · Bootstrap 5</p>
+</div>
 
-Kurumsal **güvenlik farkındalığı** ve **oltalama (phishing) simülasyonu** paneli. Saf **PHP 8.3**, **MySQL**, **Bootstrap 5** ile geliştirilmiştir (Laravel yok).
+<br>
+
+Saf **PHP 8.3**, **MySQL**, **Bootstrap 5** ile geliştirilmiştir (Laravel yok).
 
 > **Yasal uyarı:** Bu yazılım yalnızca yetkili güvenlik ekipleri tarafından, kurum politikası ve yazılı onay kapsamında kullanılmalıdır. İzinsiz kullanım yasalara aykırı olabilir.
 

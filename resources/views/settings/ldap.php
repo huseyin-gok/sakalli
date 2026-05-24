@@ -14,7 +14,7 @@ $cb = static function (string $k): bool {
 $info = static function (string $text): string {
     return '<span class="badge rounded-pill text-bg-secondary ms-1 align-middle" '
         . 'title="' . e($text) . '" data-bs-toggle="tooltip" data-bs-placement="top" '
-        . 'style="font-size:.68rem; line-height:1; cursor:help;">i</span>';
+        . 'style="font-size:.68rem; line-height:1;">i</span>';
 };
 ?>
 <h1 class="h4 mb-3"><?= e($title) ?></h1>
