@@ -67,8 +67,6 @@ copy .env.example .env
 - `LDAP_*` — Active Directory (veya test için kapalı bırakıp manuel kullanıcı)
 - `SMTP_*` — test posta sunucusu
 
-**Asla** gerçek parolaları repoya commit etmeyin. Üretimde `APP_DEBUG=false` kullanın.
-
 ### 3. Veritabanı
 
 MySQL’de veritabanı oluşturun, ardından sırayla çalıştırın:
@@ -142,27 +140,7 @@ routes/        web.php
 storage/       log, cache, secrets, exports (git dışı)
 ```
 
-## Güvenlik notları (paylaşım öncesi)
-
-Repoya göndermeden önce:
-
-1. `.env` dosyasının **commit edilmediğini** doğrulayın (`git status`).
-2. `storage/logs/*.log` içinde DN, IP veya kullanıcı adı kalmadığından emin olun.
-3. Gerçek kurum alan adları, iç IP’ler ve servis hesapları yalnızca yerel `.env` veya panel ayarlarında kalsın.
-4. Daha önce sızıntı olduysa LDAP/SMTP parolalarını **yenileyin**.
-
-## Geliştirme
-
-- PHP 8.3 strict types, PSR-4 benzeri autoload (`App\` → `app/`)
-- CSRF koruması formlarda
-- Oturum: `httponly`, `SameSite=Lax`, HTTPS’te `secure`
-
-Test iskeleti: `tests/SmokeTest.php` (PHPUnit eklenebilir).
 
 ## Lisans
 
-Bu depo için lisans dosyası eklemediyseniz, GitHub’da paylaşmadan önce uygun bir lisans (ör. MIT, AGPL) seçmeniz önerilir.
-
-## Katkı
-
-Issue ve pull request’lerde kurum adı, iç ağ adresi veya kimlik bilgisi **paylaşmayın**. Yapılandırma örnekleri için `kurum.local`, `example.com` gibi yer tutucular kullanın.
+MIT
